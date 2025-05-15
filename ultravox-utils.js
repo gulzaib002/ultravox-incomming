@@ -2,7 +2,7 @@ import 'dotenv/config';
 import https from 'node:https';
 
 // Configuration
-const ULTRAVOX_API_KEY = 'yfRrGAUk.AFsRsSg7ubYbVeh5ZMTFITtt4pFs3bWW';
+const ULTRAVOX_API_KEY = process.env.ULTRAVOX_API_KEY;
 const ULTRAVOX_API_URL = 'https://api.ultravox.ai/api';
 
 
